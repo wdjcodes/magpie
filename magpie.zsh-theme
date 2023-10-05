@@ -24,7 +24,7 @@ function __pwd_abridged {
 }
 
 function __is_head_detached {
-    __git_prompt_git symbolic-ref -q HEAD
+    ignored=$(__git_prompt_git symbolic-ref -q HEAD)
     return $?
 }
 
