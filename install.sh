@@ -2,7 +2,7 @@
 
 if [[ ${ZSH_CUSTOM:-1} == "1" ]]; then
     echo "Could not find Oh My Zsh installation directory. Is it installed?"
-    return 1
+    exit 1
 fi
 
 theme_name=magpie
