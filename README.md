@@ -6,7 +6,7 @@ Note that the the preview shown below is based on the custom color profile, [sha
 ![Theme preview](preview.png)
 
 ## Install
-Run the following commands to install agitnoster theme:
+Run the following commands:
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/wdjcodes/magpie/master/install.sh)"
+ZSH_CUSTOM=$ZSH_CUSTOM sh -c "$(curl -fsSL https://raw.githubusercontent.com/wdjcodes/magpie/master/install.sh)"
 ```
