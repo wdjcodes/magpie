@@ -8,5 +8,5 @@ Note that the the preview shown below is based on the custom color profile, [sha
 ## Install
 Run the following commands:
 ```sh
-ZSH_CUSTOM=$ZSH_CUSTOM sh -c "$(curl -fsSL https://raw.githubusercontent.com/wdjcodes/magpie/master/install.sh)"
+ZSH_CUSTOM=$ZSH_CUSTOM zsh -c "$(curl -fsSL https://raw.githubusercontent.com/wdjcodes/magpie/master/install.sh)"
 ```
